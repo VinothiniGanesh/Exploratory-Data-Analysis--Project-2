@@ -3,7 +3,6 @@ NEI <- readRDS("./exdata-data-NEI_data/summarySCC_PM25.rds")
 SRC <- readRDS("./exdata-data-NEI_data/Source_Classification_Code.rds")
 
 
-
 #  Create Plot Data 
 VEH <- grep("vehicle",SRC$EI.Sector,value=T,ignore.case=T)
 SRC.VEH <- subset(SRC, SRC$EI.Sector %in% VEH, select=SCC)
