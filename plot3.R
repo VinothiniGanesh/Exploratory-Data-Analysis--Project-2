@@ -1,4 +1,4 @@
-#####################Plot 3
+####################Plot 3
 #  Read Data 
 NEI <- readRDS("./exdata-data-NEI_data/summarySCC_PM25.rds")
 
