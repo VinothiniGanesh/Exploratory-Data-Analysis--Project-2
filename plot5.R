@@ -19,5 +19,4 @@ plot(pd$year, pd$Emissions, type = "l",
      main = "Total Vehicle Emissions in Baltimore City",
      xlab = "Year", ylab = "Emissions")
 
-
 dev.off()
